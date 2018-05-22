@@ -1,7 +1,7 @@
 package rohit.com.loginform;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mLoginButton.setOnClickListener(this);
     }
 
+    // Handling the button click
     @Override
     public void onClick(View v) {
         if (R.id.button == v.getId()){
